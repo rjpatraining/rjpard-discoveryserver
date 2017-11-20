@@ -1,0 +1,10 @@
+---
+spring:
+  application:
+    name: rjpard-discoveryserver   
+server:
+  port: 8010
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
